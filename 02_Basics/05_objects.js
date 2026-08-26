@@ -16,11 +16,11 @@ console.log(instructor);
 
 
 //JSON
-{
-    "name":"sahil",
-    "coursename": "js in hindi",
-    "price":"free"
-}
+// {
+//     "name":"sahil",
+//     "coursename": "js in hindi",
+//     "price":"free"
+// }
 
 // https://api.github.com/users/hiteshchoudhary
 // randomuser.me
