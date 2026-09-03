@@ -35,6 +35,13 @@ for (const key of map) {
 // [ 'USA', 'United State of America' ]
 // [ 'Fr', 'France' ]
 
+for (const key in map) {
+    console.log(key);
+}
+
+// it does not print anything here because of here map is not iterable
+
+
 for (const [key,value] of map) {
     console.log(key ,':-',value);
 }
@@ -42,6 +49,7 @@ for (const [key,value] of map) {
 // IN :- India
 // USA :- United State of America
 // Fr :- France
+
 
 const myObject={
     'game1':'NFS',
@@ -53,3 +61,9 @@ const myObject={
 
 // it's give us error => myObject is not iterable
 // because object forof me iterable nahi hota h
+
+for (const key in myObject) {
+    console.log(key);
+}
+// game1
+// game2
