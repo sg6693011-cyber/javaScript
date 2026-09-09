@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ddd;
+}
+
+/* Navbar */
+nav {
+    margin-top: 3px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 3px 20px;
+    margin: 0 2px;
+    border: 1px solid #888;
+    border-radius: 2px;
+    background-color: #ddd;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Main content */
+.canvas {
+    margin-top: 65px;
+}
+
+.canvas h1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Color boxes */
+.button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 1px;
+    border: 2px solid #555;
+    cursor: pointer;
+}
+
+/* Individual colors */
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+/* Instruction */
+.canvas h2 {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+
+.canvas h2 span {
+    display: block;
+}
